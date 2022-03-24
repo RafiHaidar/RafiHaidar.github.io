@@ -14,6 +14,10 @@
     <!-- My css -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- Load file CSS Bootstrap offline -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.4.1.min.js"></script>
+
     <title>Tugas Web Desain</title>
   </head>
   <body id="Home">
@@ -55,10 +59,10 @@
               <a class="nav-link active" aria-current="page" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#Schedule">Schedule</a>
+              <a class="nav-link" href="#About">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About Me</a>
+              <a class="nav-link" aria-current="page" href="#Schedule">Schedule</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#Contact">Contact Me</a>
@@ -107,7 +111,7 @@
               <li>Jendral Soedirman University</li>
             </ul>
             <br />
-            <h3 id="Kemampuan"><i class="bi bi-card-checklist"></i>&nbspKemampuan</h3>
+            <h3 id="Ability"><i class="bi bi-card-checklist"></i>&nbspAbility</h3>
             <br />
             <h5>Word & Excel</h5>
             <div class="progress">
@@ -131,7 +135,7 @@
             <br />
           </div>
           <div class="col-md-4">
-            <h3 id="Experience"><i class="bi bi-clipboard"></i>&nbspExperience</h3>
+            <h3 id="Activity"><i class="bi bi-clipboard"></i>&nbspActivity</h3>
             <br />
             <ul class="list-unstyled fs-5">
               <li>
@@ -154,6 +158,77 @@
           </div>
         </div>
       </div>
+    </section>
+    <!-- Akhir Tentang Saya -->
+
+    <!-- Jadwal Kuliah -->
+    <section id="Schedule">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Schedule</h2>
+            <br />
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <table class="table table-bordered table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Hari</th>
+              <th>Waktu</th>
+              <th>Mata Kuliah</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Senin</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td rowspan="3">Selasa</td>
+              <td>07:00:00 - 08:45:00</td>
+              <td>Basis Data II</td>
+            </tr>
+            <tr>
+              <td>08:50:00 - 11:30:00</td>
+              <td>Logika Fuzzy</td>
+            </tr>
+            <tr>
+              <td>13:00:00 - 14:45:00</td>
+              <td>Pemrograman Web II</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Rabu</td>
+              <td>07:00:00 - 08:45:00</td>
+              <td>E-Commerce</td>
+            </tr>
+            <tr>
+              <td>13:00:00 - 15:40:00</td>
+              <td>Data Mining</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Kamis</td>
+              <td>08:50:00 - 10:35:00</td>
+              <td>Interaksi Manusia Komputer</td>
+            </tr>
+            <tr>
+              <td>13:00:00 - 14:45:00</td>
+              <td>Web Design</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Jum'at</td>
+              <td>08:50:00 - 11:30:00</td>
+              <td>Sistem Pendukung Keputusan</td>
+            </tr>
+            <tr>
+              <td>13:00:00 - 15:40:00</td>
+              <td>Rekayasa Perangkat Lunak</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#b5e2f0"
@@ -162,7 +237,7 @@
         ></path>
       </svg>
     </section>
-    <!-- Akhir Tentang Saya -->
+    <!-- Akhir Jadwal Kuliah -->
 
     <!-- Contact -->
     <section id="Contact" style="background-color: #b5e2f0">
